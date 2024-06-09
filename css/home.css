@@ -381,7 +381,6 @@ address{
     margin-bottom: 30px;
 }
 .Trandcard img{
-    width: 40%;
     height: 260px;
     border-bottom-left-radius: 7px;
     border-top-left-radius: 7px;
@@ -390,7 +389,7 @@ address{
     padding: 0px;
 }
 .Trandcard .textAdsone{
-    width: 90%;
+    width: 100%;
 }
 
 footer{
