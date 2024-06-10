@@ -225,7 +225,7 @@ hr{
 }
 .textAds h6{
     background-color: #0000002f;
-    font-size: 12px;
+    font-size: 14px;
     border-radius: 20px;
     padding: 12px;
     text-align: center;
@@ -241,11 +241,11 @@ hr{
 }
 .Reviews span{
     padding: 20px;
-    font-size: 22px;
+    font-size: 20px;
 }
 .Reviews p ,.star{
     color: #000000b9;
-    font-size: 20px;
+    font-size: 15px;
     padding-left: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -296,9 +296,7 @@ address{
 }
 
 .bacImgOne{
-    background-image: url(../img/img_1.jpg);
-    /* background-size: ; */
-    
+    background-image: url(../img/img_1.jpg);    
 }
 .bacImgtwo{
     background-image: url(../img/img_2.jpg);
@@ -356,7 +354,7 @@ address{
 
 }
 .Trend{
-    width: 85%;
+    width: 90%;
     margin-bottom: 100px;
 }
 .Trend hr{
@@ -372,7 +370,7 @@ address{
     gap: 20px;
 }
 .Trandcard{
-    width: 47%;
+    width: 49%;
     height: 260px;
     display: flex;
     background-color: #fff;
@@ -388,10 +386,6 @@ address{
     margin: 0px;
     padding: 0px;
 }
-.Trandcard .textAdsone{
-    width: 90%;
-}
-
 footer{
     background-color: rgba(2, 2, 19, 0.678);
 }
