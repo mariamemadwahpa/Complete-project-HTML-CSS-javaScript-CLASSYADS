@@ -622,6 +622,10 @@ footer hr{
         gap: 25%;
     }
    
+    .email{
+        height: 200px;
+      
+    }
     .footertow{
         font-size: 15px;
     }
