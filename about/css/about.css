@@ -362,11 +362,12 @@ footer hr{
         height: 400px;
     }
  
-    .email{
-        background-color: #30e3ca;
-        display: flex;
-        height: 200px;
-        color: #fff;
-        line-height: 40px;
+     .email{
+        display: block;
+    }
+    .emailtext ,.emailInput{
+        width: 100%;
+        margin: 50px auto;
+    
     }
 }
