@@ -305,6 +305,8 @@ footer hr{
     }
     .continerTwo{
         display: block;
+        width: 100%;
+        
     }
     .imgTwo , .TextTwo{
         width: 90%;
