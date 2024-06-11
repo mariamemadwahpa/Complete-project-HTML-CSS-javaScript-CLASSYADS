@@ -622,9 +622,13 @@ footer hr{
         gap: 25%;
     }
    
-    .email{
-        height: 200px;
-      
+   .email{
+        display: block;
+    }
+    .emailtext ,.emailInput{
+        width: 100%;
+        margin: 50px auto;
+    
     }
     .footertow{
         font-size: 15px;
