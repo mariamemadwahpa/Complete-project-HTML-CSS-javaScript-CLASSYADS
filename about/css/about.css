@@ -314,6 +314,12 @@ footer hr{
 }
 
 @media screen and (max-width: 1050px) {
+      header{
+        height: 500px;
+    }
+    .contianrt{
+        height: 100%;
+    }
     .nav .list{
         display: none;
     }
