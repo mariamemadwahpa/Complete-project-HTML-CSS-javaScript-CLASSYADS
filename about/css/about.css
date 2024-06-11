@@ -2,9 +2,8 @@
     margin: auto;
     padding: 0;
     border: 0;
-}
-body{
-    background-color: #f8f9fa;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
 }
 
 header{
@@ -27,7 +26,6 @@ nav .toggle_btn{
     display: none;
     position: absolute;
     right: 3rem;
-    /* justify-content: center; */
     top: 60px;
     height: 0;
     width: 85%;
@@ -120,53 +118,131 @@ hr{
     height: 80px;border-radius: 7px;
     width: 85%;
     background-color: #fff;
-    /* position: fixed;
-    z-index: 9999;
-    top: 10px; */
+   
 }
-/* a{
-    color:#000;
-    text-decoration: none;
+
+
+
+
+.featuredAds{
+    width: 85%;
+    margin-top: 70px;  
 }
-span{
+.featuredAds hr{
+    background-color: #30e3ca;
+    width: 100px;
+    height: 2px;
+    margin: 5px;
+    margin-bottom: 50px
+}
+.featuredAds h1{
+    margin-bottom: 30px;
+    font-size: 45px;
+    font-weight: lighter;
     color: #30e3ca;
 }
-.linkNavBar a ,.ProfileNavBar a{
-    margin-left: 40px;
+.cards{
+    display: flex;
+    gap: 40px;
+}
+.card{
+    width: 25%;
+    padding-bottom: 30px;
+}
+.card img {
+    width: 100%;
+}
+
+.Reviews h2{
+    padding: 20px 0px;
+    font-size: 30px;
+    color: #0000008c;
+}
+.Reviews span{
     font-size: 20px;
-    
 }
-hr{
-    border:#30e3ca solid 1px;
-    height: 30px;
-} */
-section h1{
-    text-align: center;
-    margin-top: 100px;
-    margin-bottom: 20px;
-    font-size: 80px;
+p {
+    line-height: 35px;
+    color: #0000007c;
+    font-size: 25px;
+    padding: 15px 0px;
+    margin-top: 10px;
 }
-section p{
-    text-align: center;
-    /* color: #ffffffa9; */
+
+.continerTwo{
+    width: 83%;
+    justify-content: center;
+    display: flex;
+    gap: 100px;
+    margin: 100px auto;
+}
+.imgTwo , .TextTwo{
+    width: 50%;
+}
+.imgTwo img{
+    width: 100%;
+    margin: 100px auto;
+}
+.TextTwo span{
     font-size: 50px;
-    font-weight: lighter;
-    margin-bottom: 100px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.IconTwo{
+    display: flex;
+    margin: 0;
+}
+.IconTwo i{
+    color: #30e3ca;
+    font-size: 25px;
+    margin: 0;
+    padding: 15px ;
+}
+.IconTwo p {
+    margin: 0;
+    padding: 15px 30px;
+}
+
+.email{
+    background-color: #30e3ca;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 0 ;
+    color: #fff;
+    line-height: 40px;
+}
+.emailtext ,.emailInput{
+    width: 30%;
+
+}
+.emailtext p{
+    font-size: 20px;
+}
+
+.emailInput input{
+    height: 50px;
+    color: #fff;
+    width: 65%;
+    border-bottom:1px solid #fff ;
+    background-color: #30e3ca;
+}
+.emailInput button{
+    height: 50px;
+    font-size: 20px;
+    width: 30%;
 }
 footer{
-    height: 500px;
     background-color: rgba(2, 2, 19, 0.678);
 }
 .footerone{
     display: flex;
     line-height: 30px;
+    padding: 150px 50px;
+    gap: 20px;
 }
 .footerone h5{
     color:#fff;
     font-size: 35px;
-    margin-top: 120px;
     margin-bottom: 20px;
-
 }
 .footerone p ,.footerone i{
     color:#ffffff90;
@@ -178,19 +254,64 @@ footer hr{
     width: 80%;
     height: 1px;
     border: none;
-    margin-top: 30px;
     margin-bottom: 30px;
 } 
+.about {
+    width: 35%;
+}
+.navigation {
+    width: 15%;
+}
+.follow{
+    width: 20%;
+
+}
+.input{
+    width: 25%;
+    
+}
+.input input, .input button{
+    color: #fff;
+    font-size: 20px;
+    height: 50px;
+    border: 1px solid #ffffff90 ;
+}
+.input input{
+    width: 65%;
+    background-color:rgba(2, 2, 19, 0.678);
+}
+.input button{
+    background-color: #30e3ca;
+    width: 30%;
+}
+.follow .icon a{
+    text-decoration: none;
+}
 .footertow{
     text-align: center;
     color:#ffffff90;
-
+    padding-bottom: 30px;
 }
 .footertow a{
     color:#fff;
+    text-decoration: none;
+}
+@media (max-width:1300px) {
+    .cards{
+        flex-wrap: wrap;
+    }
+    .card{
+        width: 40%;
+    }
+    .continerTwo{
+        display: block;
+    }
+    .imgTwo , .TextTwo{
+        width: 90%;
+    }
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1050px) {
     .nav .list{
         display: none;
     }
@@ -203,10 +324,47 @@ footer hr{
     }
     .linkNavBar a ,.ProfileNavBar a{
         margin-left: 0px;
-        font-size: 0px;
-        
+        font-size: 0px; 
     }
     .icon-menu{
         font-size: 20px;
+    }
+   
+    .emailtext ,.emailInput{
+        width: 100%;
+        margin:0px 50px 1px;    
+    }
+    .footertow{
+        font-size: 15px;
+    }
+    footer{
+        height: auto;
+    }
+    .footerone{
+        display: block;
+        padding: 50px 15px;
+    }
+    .about,.navigation,.follow,.input{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .cards{
+        display: block;
+    }
+    .card{
+        width: 90%;
+        padding-bottom: 10px;
+        margin-bottom: 100px;
+    }
+    .card img {
+        height: 400px;
+    }
+ 
+    .email{
+        background-color: #30e3ca;
+        display: flex;
+        height: 200px;
+        color: #fff;
+        line-height: 40px;
     }
 }
